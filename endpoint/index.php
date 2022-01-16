@@ -16,7 +16,7 @@ switch ($_POST['req']) {
   case "list":
     $user = $ab->getAll(); ?>
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 text-center">
               <h2>Choisissez votre personnage</h2>
           </div>
         </div>
