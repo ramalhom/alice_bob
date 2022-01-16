@@ -94,7 +94,7 @@ switch ($_POST['req']) {
                                 </div>
                                 <?php if ($step > 1) { ?>
                                     <div class="form-group">
-                                        <label for="msg_private_key"><i class="fa fa-key"></i> Clé privée (nombre entier)</label>
+                                        <label for="msg_private_key"><i class="fa fa-key"></i> Ma clé privée (nombre entier)</label>
                                         <input type="number" class="form-control" id="msg_private_key" value="<?= $message[1] ?>" required>
                                     </div>
                                 <?php } else { ?>
@@ -104,7 +104,7 @@ switch ($_POST['req']) {
                                 <?php } ?>
                                 <?php if ($step > 2) { ?>
                                     <div class="form-group">
-                                        <label for="msg_public_key"><i class="fa fa-key"></i> Clé publique de <?= $username ?> (nombre entier)</label>
+                                        <label for="msg_public_key"><i class="fa fa-key"></i> Ma clé publique (nombre entier)</label>
                                         <input type="number" class="form-control" id="msg_public_key" value="<?= $message[2] ?>" required>
                                     </div>
                                     <div class="form-group">
