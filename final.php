@@ -35,15 +35,11 @@
                 <div id="form_url">
 
                 </div>
-                <!--<div class="text-center">
-                    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=U7FzJeG_q0Ore4wlU12Bmf6H_FvriYxOqDxidnqP8DlUQTNGTE9VQjdTMDhXUTJESktONlY4RUxLTS4u" class="btn btn-success btn-bigger"><i class="fa fa-thumbs-up"></i> Formulaire
-                    </a>
-                </div>-->
             </div>
         </div>
     <div class="row">
         <div class="col-md-12">
-            <span>Copyright 2020, Mario Ramalho, Icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+            <span>Copyright 2022, Mario Ramalho, Icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
         </div>
     </div>
 </div>
