@@ -25,13 +25,14 @@ session_start();
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12"><img src="images/logo_alicebob.png" class="rounded mx-auto d-block img-fluid"></div>
+            <div class="col-lg-12 mt-3"><img src="images/logo_alicebob.png" class="rounded mx-auto d-block img-fluid"></div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 text-center">
                 <h1>Alice & Bob : Le jeu</h1>
-                <p>Bienvenue sur le jeu Alice & Bob. Ce jeu vous permet de comprendre et d'expérimenter la
-                    cryptographie.</p>
+                <p>Bienvenue sur le jeu Alice & Bob. <br>
+                    Ce jeu vous permet de comprendre et d'expérimenter la
+                    cryptographie symétrique et asymétrique. <a href="https://www.ramalho.ch/alice-bob"> Plus d'informations.</a></p>
             </div>
         </div>
         <?php
@@ -53,6 +54,11 @@ session_start();
                             </button>
                         </div>
                     </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p><a href="config.php">Accès à la configuration</a></p>    
                 </div>
             </div>
         <?php } ?>
