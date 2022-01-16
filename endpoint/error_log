@@ -1,0 +1,40 @@
+[27-Nov-2020 21:40:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function verbose() on null in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php:22
+Stack trace:
+#0 /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/endpoint/index.php(5): User->__construct()
+#1 {main}
+  thrown in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php on line 22
+[27-Nov-2020 21:40:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function verbose() on null in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php:22
+Stack trace:
+#0 /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/endpoint/index.php(5): User->__construct()
+#1 {main}
+  thrown in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php on line 22
+[27-Nov-2020 21:40:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function verbose() on null in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php:22
+Stack trace:
+#0 /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/endpoint/index.php(5): User->__construct()
+#1 {main}
+  thrown in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php on line 22
+[27-Nov-2020 21:47:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function verbose() on null in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php:22
+Stack trace:
+#0 /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/endpoint/index.php(5): User->__construct()
+#1 {main}
+  thrown in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php on line 22
+[27-Nov-2020 21:47:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function verbose() on null in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php:22
+Stack trace:
+#0 /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/endpoint/index.php(5): User->__construct()
+#1 {main}
+  thrown in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php on line 22
+[27-Nov-2020 21:47:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function verbose() on null in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php:22
+Stack trace:
+#0 /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/endpoint/index.php(5): User->__construct()
+#1 {main}
+  thrown in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php on line 22
+[27-Nov-2020 21:48:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function verbose() on null in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php:22
+Stack trace:
+#0 /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/endpoint/index.php(5): User->__construct()
+#1 {main}
+  thrown in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php on line 22
+[27-Nov-2020 21:48:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function verbose() on null in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php:22
+Stack trace:
+#0 /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/endpoint/index.php(5): User->__construct()
+#1 {main}
+  thrown in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/lib/user.php on line 22

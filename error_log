@@ -1,0 +1,3 @@
+[27-Nov-2020 21:40:14 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/index.php on line 34
+[27-Nov-2020 21:47:46 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/index.php on line 34
+[27-Nov-2020 21:48:30 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/modulesemf/114.modules.emf-informatique.ch/3-encryptage/alicebob/index.php on line 34

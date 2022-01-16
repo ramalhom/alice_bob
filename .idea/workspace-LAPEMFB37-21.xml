@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9001c60f-e0f0-49c6-b125-1b0ca32f4f36" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <execution>
+      <interpreter composer="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1j0otCm9Ne3QnpdV1SZH0GUKgJY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../20210303_Panneaudidact/fl3r-accessibility-suite" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\Desktop\BobAlice\php-app\lib" />
+      <recent name="P:\Desktop\BobAlice\php-app\js" />
+      <recent name="P:\Desktop\BobAlice\php-app\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\Desktop\BobAlice\php-app\endpoint" />
+      <recent name="P:\Desktop\BobAlice\php-app\lib" />
+      <recent name="P:\Desktop\BobAlice\php-app\public" />
+      <recent name="P:\Desktop\BobAlice\php-app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.config.php">
+    <configuration name="config.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php-app/config.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php-app/index.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.config.php" />
+        <item itemvalue="JavaScript Debug.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9001c60f-e0f0-49c6-b125-1b0ca32f4f36" name="Default Changelist" comment="" />
+      <created>1602950583910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602950583910</updated>
+      <workItem from="1602950585510" duration="311000" />
+      <workItem from="1602950921461" duration="2642000" />
+      <workItem from="1602962638641" duration="1995000" />
+      <workItem from="1602964896439" duration="11059000" />
+      <workItem from="1602997907126" duration="32186000" />
+      <workItem from="1603108515298" duration="6216000" />
+      <workItem from="1603117104963" duration="33550000" />
+      <workItem from="1603262635285" duration="15930000" />
+      <workItem from="1603305540794" duration="371000" />
+      <workItem from="1604483289736" duration="3943000" />
+      <workItem from="1606743867264" duration="2136000" />
+      <workItem from="1606774964831" duration="3343000" />
+      <workItem from="1606807141200" duration="2872000" />
+      <workItem from="1606810973130" duration="264000" />
+      <workItem from="1606811283010" duration="431000" />
+      <workItem from="1606811730439" duration="3334000" />
+      <workItem from="1616494478453" duration="800000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1616494676613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616494676613" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lib/config.php</url>
+          <line>113</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

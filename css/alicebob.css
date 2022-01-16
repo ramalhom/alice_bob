@@ -1,0 +1,93 @@
+body {
+    background-color: #cbd3da;
+}
+
+h1 {
+    font-family: 'Chilanka', serif;
+    font-size: 62pt;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Chilanka', serif;
+    font-size: 47pt;
+}
+
+p {
+    font-size: 36pt;
+}
+
+input[type="text"] {
+    font-size: 36pt;
+}
+
+input[type="number"] {
+    font-size: 36pt;
+}
+
+.custom-select {
+    font-size: 36pt;
+}
+
+.custom-select option {
+    font-size: 1rem;
+}
+
+label {
+    font-size: 36pt;
+}
+
+.btn-bigger {
+    font-size: 36pt;
+}
+
+.invalid-feedback {
+    font-size: 28pt;
+}
+
+.message {
+    margin-top:10px;
+    background-color: #d5b1d0;
+}
+
+.session {
+    margin-top: 30px;
+    font-family: 'Chilanka';
+}
+
+.attention {
+    background-color: #ffc107;
+    text-align: center;
+    font-size: 3em;
+}
+
+figure {
+    background-color: #d5b1d0;
+}
+
+.person {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.person img {
+    width: 96px;
+}
+
+.form-border {
+    padding: 20px;
+    border: solid 1px #4e555b;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.img_step {
+    width: 100%;
+}
+
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 910px;
+    }
+}
