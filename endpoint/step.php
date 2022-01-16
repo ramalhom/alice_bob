@@ -90,7 +90,7 @@ switch ($_POST['req']) {
                     </div>
                         <?php if ($step>1) { ?>
                     <div class="form-group">
-                        <label for="msg_private_key"><i class="fa fa-key"></i> Clé privée (nombre entier)</label>
+                        <label for="msg_private_key"><i class="fa fa-key"></i> Ma clé privée (nombre entier)</label>
                         <input type="number" class="form-control" id="msg_private_key" value="<?=$message[1]?>" required>
                     </div>
                         <?php } else { ?>
@@ -161,7 +161,7 @@ switch ($_POST['req']) {
                         }
                     }
                 ?>
-                    <?php if ($step > 1 and $username != 'Eve') { ?>
+                    <?php if ($step > 1) { ?>
                     <div class="col-md-12">
                         <form class="form-border" onsubmit="return msg.save()">
                             <div class="form-group">
@@ -170,13 +170,13 @@ switch ($_POST['req']) {
                                 <input type="hidden" id="msg_step" value="<?=$step?>" />
                                 <input type="hidden" id="msg_message" value="" />
                                 <?php if ($step>1) { ?>
-                                    <label for="msg_private_key"><i class="fa fa-key"></i> Clé privée (nombre entier)</label>
+                                    <label for="msg_private_key"><i class="fa fa-key"></i> Ma clé privée (nombre entier)</label>
                                     <input type="number" class="form-control" id="msg_private_key" value="<?=$messageUser[1]?>" required>
                                 <?php } else { ?>
                                     <input type="hidden" id="msg_private_key" value="" />
                                 <?php } ?>
-                                <?php if ($step>2 and $username != 'Trudi') { ?>
-                                    <label for="msg_public_key"><i class="fa fa-key"></i> Clé publique (nombre entier)</label>
+                                <?php if ($step>2 and $username != 'Trudi' and $username != 'Eve') { ?>
+                                    <label for="msg_public_key"><i class="fa fa-key"></i> Ma clé publique (nombre entier)</label>
                                     <input type="number" class="form-control" id="msg_public_key" value="<?=$messageUser[2]?>" required>
                                 <?php } else { ?>
                                     <input type="hidden" id="msg_public_key" value="" />
@@ -193,11 +193,13 @@ switch ($_POST['req']) {
                                         <select class="custom-select" id="msg_crypted_with" required>
                                             <option value="public_key_alice"<?php if ($messageUser[3] == "public_key_alice") echo " selected"; ?>>Clé publique de Alice</option>
                                             <option value="public_key_bob"<?php if ($messageUser[3] == "public_key_bob") echo " selected"; ?>>Clé publique de Bob</option>
-                                            <?php if ($username != 'Trudi') { ?>
+                                            <?php if ($username == 'Bob') { ?>
                                                 <option value="private_key_bob"<?php if ($messageUser[3] == "private_key_bob") echo " selected"; ?>>Clé privé de Bob</option>
-                                            <?php } else { ?>
+                                            <?php } else if ($username == 'Trudi') { ?>
                                                 <option value="private_key_trudi"<?php if ($messageUser[3] == "private_key_trudi") echo " selected"; ?>>Clé privé de Trudi</option>
-                                            <?php } ?>
+                                            <?php } else { ?>
+                                                <option value="private_key_eve"<?php if ($messageUser[3] == "private_key_eve") echo " selected"; ?>>Clé privé de Eve</option>
+                                             <?php } ?>
                                         </select>
                                     </div>
                                 <?php } else { ?>
