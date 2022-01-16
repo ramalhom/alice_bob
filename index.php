@@ -58,13 +58,13 @@ session_start();
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <p><a href="config.php">Accès à la configuration</a></p>    
+                    <p><a href="config.php">Accès à la configuration</a></p>
                 </div>
             </div>
         <?php } ?>
         <div class="row">
             <div class="col-md-12">
-                <span>Copyright 2022, Mario Ramalho, Icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+                <span>Made with <i class="fa fa-heart"></i>, Mario Ramalho, Icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
             </div>
         </div>
     </div>
