@@ -64,7 +64,7 @@ session_start();
         <?php } ?>
         <div class="row">
             <div class="col-md-12">
-                <span>Made with <i class="fa fa-heart"></i>, Mario Ramalho, Icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+                <span>Made with <i class="fa fa-heart"></i> by Mario Ramalho, Icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
             </div>
         </div>
     </div>

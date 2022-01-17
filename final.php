@@ -21,7 +21,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12 mt-3"><img src="images/logo_alicebob.png" class="rounded mx-auto d-block img-fluid"></div>
+            <div class="col-lg-12 mt-3"><a href="/><img src="images/logo_alicebob.png" class="rounded mx-auto d-block img-fluid"></a></div>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -41,7 +41,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <span>Made with <i class="fa fa-heart"></i>, Mario Ramalho, Icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+                <span>Made with <i class="fa fa-heart"></i> by Mario Ramalho, Icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
             </div>
         </div>
     </div>
