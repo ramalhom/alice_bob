@@ -14,7 +14,7 @@ var cfg = {
                 alert("ERROR OPENING FILE!");
             } else {
                 if (this.response == "OK") {
-                    alert("Action effectué!")
+                    alert("Action effectuée!")
                 } else {
                     alert("Une erreur s'est produite!");
                 }

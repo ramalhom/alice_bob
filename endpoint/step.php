@@ -92,7 +92,12 @@ switch ($_POST['req']) {
                                 <div class="form-group">
                                     <input type="hidden" id="msg_step" value="<?= $step ?>" />
                                 </div>
-                                <?php if ($step > 1) { ?>
+                                <?php if ($step == 2) { ?>
+                                    <div class="form-group">
+                                        <label for="msg_private_key"><i class="fa fa-key"></i> Clé privée (nombre entier)</label>
+                                        <input type="number" class="form-control" id="msg_private_key" value="<?= $message[1] ?>" required>
+                                    </div>
+                                <?php } else if ($step == 3) { ?>
                                     <div class="form-group">
                                         <label for="msg_private_key"><i class="fa fa-key"></i> Ma clé privée (nombre entier)</label>
                                         <input type="number" class="form-control" id="msg_private_key" value="<?= $message[1] ?>" required>
@@ -173,9 +178,14 @@ switch ($_POST['req']) {
                                         <input type="hidden" id="msg_username" value="<?= $username ?>" />
                                         <input type="hidden" id="msg_step" value="<?= $step ?>" />
                                         <input type="hidden" id="msg_message" value="" />
-                                        <?php if ($step > 1) { ?>
-                                            <label for="msg_private_key"><i class="fa fa-key"></i> Ma clé privée (nombre entier)</label>
+                                        <?php if ($step ==  2) { ?>
+                                            <label for="msg_private_key"><i class="fa fa-key"></i> Clé privée (nombre entier)</label>
                                             <input type="number" class="form-control" id="msg_private_key" value="<?= $messageUser[1] ?>" required>
+                                        <?php } else if ($step == 3) { ?>
+                                            <div class="form-group">
+                                                <label for="msg_private_key"><i class="fa fa-key"></i> Ma clé privée (nombre entier)</label>
+                                                <input type="number" class="form-control" id="msg_private_key" value="<?= $messageUser[1] ?>" required>
+                                            </div>
                                         <?php } else { ?>
                                             <input type="hidden" id="msg_private_key" value="" />
                                         <?php } ?>
