@@ -21,7 +21,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12"><img src="images/logo_alicebob.png" class="rounded mx-auto d-block img-fluid"></div>
+            <div class="col-lg-12 mt-3"><img src="images/logo_alicebob.png" class="rounded mx-auto d-block img-fluid"></div>
         </div>
         <div class="row">
             <div class="col-md-12">

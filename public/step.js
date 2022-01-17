@@ -44,7 +44,7 @@ var msg = {
         alert("ERROR OPENING FILE!");
       } else {
         if (this.response=="OK") {
-          alert("Action effectué!")
+          alert("Action effectuée!")
           msg.list();
         } else {
           alert("Une erreur s'est produite!");
