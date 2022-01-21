@@ -38,6 +38,6 @@ switch ($_POST['req']) {
       echo "<p>No users found</p>";
     }
     echo "</div>";
-    break; 
+    break;  
 }
 ?>
